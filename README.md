@@ -5,7 +5,7 @@ JSON list of currency codes, as defined by ISO 4217.
 
 ## Testing
 
-This file is pretty much the lifeblood of the [rac.im Currency Codes API](http://currencycodes.rac.im). At the time of this writing, it will be used to validate currencies when queried by the DuckDuckGo's Answers module I'm building. You should be able to guess how important the file's quality is.
+This file is pretty much the lifeblood of the API I'm working on. At the time of this writing, it will be used to validate currencies when queried by the DuckDuckGo's Answers module I'm building. You should be able to guess how important the file's quality is.
 
 To enforce said quality, the file has to be deemed valid by a Schema tested using the [jassi.js test suite](https://github.com/iclanzan/jassi). It needs to be more than proper JSON. Conforming to the spec ensures the API won't break when it finds a weird thingie.
 
