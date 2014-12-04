@@ -43,10 +43,10 @@ So, how does the file pass validation? It needs to conform to the schema, that i
             "items": {
                 "type": "string"
             },
-            "minItems": 1,
+            "minItems": 0,
             "uniqueItems": true
         },
-        "num":{ "type": "string" },
+        "num": { "type": "string" },
         "e": {
           "description": "The number of decimal points the currency uses to represent values correctly.",
           "type": "integer",
